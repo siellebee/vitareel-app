@@ -9,7 +9,8 @@ const T = {
 };
 
 export default function App() {
-  const [screen, setScreen] = useState("landing");
+  // eslint-disable-next-line
+const [screen, setScreen] = useState("landing");
   return (
     <div style={{minHeight:"100vh",background:T.cream,fontFamily:T.sans}}>
       <nav style={{display:"flex",alignItems:"center",justifyContent:"space-between",padding:"20px 40px",borderBottom:"1px solid "+T.border}}>
